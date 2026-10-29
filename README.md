@@ -124,7 +124,7 @@ Ubuntu 24.04 ships Node.js 18 and Debian 13 ships Node.js 20, both past their en
 
 ## Requirements
 
-Requires Conn3x v0.6.5 or later and systemd on each host, with a package mirror, NodeSource, the npm registry and your git hosts reachable from it. On Rocky Linux and AlmaLinux, the host also needs to reach EPEL's mirrors; on RHEL, EPEL must already be on. The home directory must not be mounted `noexec`, or nothing in `~/.local/bin` runs, Orca's server included.
+Requires Conn3x v0.6.9 or later and systemd on each host, with a package mirror, NodeSource, the npm registry and your git hosts reachable from it. On Rocky Linux and AlmaLinux, the host also needs to reach EPEL's mirrors; on RHEL, EPEL must already be on. The home directory must not be mounted `noexec`, or nothing in `~/.local/bin` runs, Orca's server included.
 
 ## Tested on
 
